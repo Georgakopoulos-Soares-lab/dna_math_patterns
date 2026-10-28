@@ -290,10 +290,6 @@ Rhie *et al.*, *Nature* 621, 344–354 (2023) for T2T-CHM13v2.0, and Yoo *et al.
 
 ---
 
-## License
-
-[License, e.g. MIT]. See `LICENSE`.
-
 ## Contact
 
 Ilias Georgakopoulos-Soares - ilias@austin.utexas.edu
