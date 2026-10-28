@@ -207,7 +207,6 @@ have finished.
 
 | step | what it does | main output | time (12 cores) |
 |---|---|---|---|
-| `tests` | unit tests of all scripts | `logs/tests.log` | ~2–5 min |
 | `split` | one FASTA per chromosome | `data/…/chroms` | ~5–10 min per genome |
 | `scan` | prefix scan, 8 families, 3 encodings, both strands | `pattern_scan_*.csv` | several hours per genome |
 | `context` | sequence context of enriched loci (needs `scan`; apes also need the human scan) | `enriched_loci_context*.csv` | tens of minutes per genome |
@@ -248,7 +247,7 @@ output file has a matching `_run.json` with its settings and software versions.
 For a quick trial run before the full one:
 
 ```bash
-GENOMES=human WORKERS=4 N_DECOYS=20 bash run_all.sh tests split decoys
+GENOMES=human WORKERS=4 N_DECOYS=20 bash run_all.sh split decoys
 ```
 
 On macOS, keep the computer awake during the long scans:
@@ -274,7 +273,6 @@ are written to `results/paper_figures/` and supplementary figures to
 - Where a word has fewer than 100 possible decoys, all of them are listed, and the smallest
   achievable p-value is reported (`testable` column).
 - Benjamini–Hochberg q-values are computed separately in each genome.
-- Each sequence family is checked against its OEIS entry in `tests/`.
 
 ---
 
