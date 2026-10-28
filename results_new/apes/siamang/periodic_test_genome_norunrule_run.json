@@ -1,0 +1,730 @@
+{
+  "script": "periodic_decoy.py",
+  "version": "2.0",
+  "date": "2026-10-28T01:56:58",
+  "args": {
+    "chrom_dir": "/Users/kleiopapatheodorou/Documents/lab/fibonacci/patterns/data/apes/chroms/siamang",
+    "n_decoys": 100,
+    "out": "/Users/kleiopapatheodorou/Documents/lab/fibonacci/patterns/results_new/apes/siamang/periodic_test_genome_norunrule.csv",
+    "targets": [
+      "all"
+    ],
+    "families": [
+      "fibonacci",
+      "lucas",
+      "tribonacci",
+      "thue_morse",
+      "period_doubling",
+      "rudin_shapiro",
+      "paperfolding",
+      "baum_sweet"
+    ],
+    "min_len": 13,
+    "max_len": 100,
+    "modes": [
+      "random_unit",
+      "same_unit"
+    ],
+    "pmax": 16,
+    "min_repeats": 3,
+    "max_defect_rate": 0.1,
+    "mappings": [
+      "RY",
+      "WS",
+      "MK"
+    ],
+    "strands": "both",
+    "locus_gap": 1000,
+    "seed": 23,
+    "workers": 6,
+    "chroms": null,
+    "exclude_chrom": null,
+    "enumerate_limit": 200000,
+    "no_run_rule": true,
+    "progress": true
+  },
+  "n_targets": 36,
+  "n_words": 5784,
+  "chromosomes": [
+    "chr1",
+    "chr4",
+    "chrX",
+    "chr5",
+    "chr3",
+    "chr6",
+    "chr7",
+    "chr2",
+    "chr8",
+    "chr9",
+    "chr12",
+    "chr11",
+    "chr10",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr18",
+    "chr16",
+    "chr17",
+    "chr19",
+    "chr21",
+    "chr22",
+    "chr24",
+    "chr23",
+    "chr20",
+    "chrY"
+  ],
+  "decoys": {
+    "baum_sweet/standard/n4|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 0,
+      "n_units_used": 0
+    },
+    "baum_sweet/standard/n4|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 158,
+      "n_candidates": 165,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "baum_sweet/standard/n5|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 2370060,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 4,
+      "n_units_used": 2
+    },
+    "baum_sweet/standard/n5|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 1048320,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "baum_sweet/standard/n6|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 703131119575,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 111,
+      "n_units_used": 24
+    },
+    "baum_sweet/standard/n6|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 1478569950,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "fibonacci/standard/F5|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 0,
+      "n_units_used": 0
+    },
+    "fibonacci/standard/F5|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 143,
+      "n_candidates": 280,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "fibonacci/standard/F6|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 4295,
+      "n_candidates": 4368,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 2,
+      "n_units_used": 2
+    },
+    "fibonacci/standard/F6|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 2379,
+      "n_candidates": 2380,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "fibonacci/standard/F7|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 13,
+      "n_units_used": 0
+    },
+    "fibonacci/standard/F7|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 12649,
+      "n_candidates": 12650,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "fibonacci/standard/F8|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 492580,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 188,
+      "n_units_used": 14
+    },
+    "fibonacci/standard/F8|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 73814,
+      "n_candidates": 73815,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "fibonacci/standard/F9|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 32915870068146,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 188,
+      "n_units_used": 46
+    },
+    "fibonacci/standard/F9|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 967986120816,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "lucas/standard/L5|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 1000,
+      "n_candidates": 1001,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "lucas/standard/L5|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 1119,
+      "n_candidates": 2220,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "lucas/standard/L6|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 7137,
+      "n_candidates": 7140,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 7,
+      "n_units_used": 3
+    },
+    "lucas/standard/L6|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 2379,
+      "n_candidates": 2380,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "lucas/standard/L7|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 453663,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 61,
+      "n_units_used": 8
+    },
+    "lucas/standard/L7|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 12649,
+      "n_candidates": 12650,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "lucas/standard/L8|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 5792867320604,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 61,
+      "n_units_used": 22
+    },
+    "lucas/standard/L8|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 251863796548,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "paperfolding/standard/n4|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 220,
+      "n_candidates": 220,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "paperfolding/standard/n4|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 223,
+      "n_candidates": 448,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "paperfolding/standard/n5|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 14532,
+      "n_candidates": 21060,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 13,
+      "n_units_used": 9
+    },
+    "paperfolding/standard/n5|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 3839,
+      "n_candidates": 3840,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "paperfolding/standard/n6|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 10581756,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1143,
+      "n_units_used": 89
+    },
+    "paperfolding/standard/n6|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 31743,
+      "n_candidates": 31744,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "period_doubling/standard/n4|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 0
+    },
+    "period_doubling/standard/n4|same_unit": {
+      "n_decoys": 11,
+      "n_possible": 11,
+      "n_candidates": 12,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "period_doubling/standard/n5|random_unit": {
+      "n_decoys": 48,
+      "n_possible": 48,
+      "n_candidates": 48,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 13,
+      "n_units_used": 4
+    },
+    "period_doubling/standard/n5|same_unit": {
+      "n_decoys": 11,
+      "n_possible": 11,
+      "n_candidates": 12,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "period_doubling/standard/n6|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 6424,
+      "n_candidates": 6424,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1143,
+      "n_units_used": 75
+    },
+    "period_doubling/standard/n6|same_unit": {
+      "n_decoys": 43,
+      "n_possible": 43,
+      "n_candidates": 44,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "rudin_shapiro/standard/n4|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 0,
+      "n_units_used": 0
+    },
+    "rudin_shapiro/standard/n4|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 454,
+      "n_candidates": 885,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "rudin_shapiro/standard/n5|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 8121766,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 20,
+      "n_units_used": 9
+    },
+    "rudin_shapiro/standard/n5|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 1239700,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "rudin_shapiro/standard/n6|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 126362245633242640,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1143,
+      "n_units_used": 94
+    },
+    "rudin_shapiro/standard/n6|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 120496829062528,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "thue_morse/standard/n4|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 0,
+      "n_units_used": 0
+    },
+    "thue_morse/standard/n4|same_unit": {
+      "n_decoys": 24,
+      "n_possible": 24,
+      "n_candidates": 45,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "thue_morse/standard/n5|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 4,
+      "n_units_used": 0
+    },
+    "thue_morse/standard/n5|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 7259,
+      "n_candidates": 14400,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "thue_morse/standard/n6|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 19791038784,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 111,
+      "n_units_used": 28
+    },
+    "thue_morse/standard/n6|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 1293121600,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_0/T4|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 539,
+      "n_candidates": 630,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_0/T4|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 445,
+      "n_candidates": 525,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_0/T5|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 38760,
+      "n_candidates": 77520,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 2,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_0/T5|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 210210,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_0/T6|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 10837,
+      "n_candidates": 11335,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 188,
+      "n_units_used": 26
+    },
+    "tribonacci/isolate_0/T6|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 479,
+      "n_candidates": 480,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_0/T7|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 950770240,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 61,
+      "n_units_used": 11
+    },
+    "tribonacci/isolate_0/T7|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 102905880,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_1/T4|random_unit": {
+      "n_decoys": 34,
+      "n_possible": 34,
+      "n_candidates": 35,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_1/T4|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 131,
+      "n_candidates": 135,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_1/T5|random_unit": {
+      "n_decoys": 100,
+      "n_possible": 20682,
+      "n_candidates": 26460,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 7,
+      "n_units_used": 2
+    },
+    "tribonacci/isolate_1/T5|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 57374,
+      "n_candidates": 61047,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_1/T6|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 1200818293,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 188,
+      "n_units_used": 37
+    },
+    "tribonacci/isolate_1/T6|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 58433760,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_1/T7|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 534038709661526912,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 61,
+      "n_units_used": 13
+    },
+    "tribonacci/isolate_1/T7|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 20090623495649848,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_2/T4|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 0,
+      "n_units_used": 0
+    },
+    "tribonacci/isolate_2/T4|same_unit": {
+      "n_decoys": 41,
+      "n_possible": 41,
+      "n_candidates": 78,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_2/T5|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 7,
+      "n_units_used": 0
+    },
+    "tribonacci/isolate_2/T5|same_unit": {
+      "n_decoys": 100,
+      "n_possible": 626,
+      "n_candidates": 630,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_2/T6|random_unit": {
+      "n_decoys": 0,
+      "n_possible": 0,
+      "n_candidates": 0,
+      "run_rule": false,
+      "exhaustive": true,
+      "n_units_available": 4,
+      "n_units_used": 0
+    },
+    "tribonacci/isolate_2/T6|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 271950,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    },
+    "tribonacci/isolate_2/T7|random_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 5618765880,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 61,
+      "n_units_used": 9
+    },
+    "tribonacci/isolate_2/T7|same_unit": {
+      "n_decoys": 100,
+      "n_possible": null,
+      "n_candidates": 3868345162990,
+      "run_rule": false,
+      "exhaustive": false,
+      "n_units_available": 1,
+      "n_units_used": 1
+    }
+  },
+  "runtime_s": 12083.1,
+  "python": "3.13.5",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3"
+}

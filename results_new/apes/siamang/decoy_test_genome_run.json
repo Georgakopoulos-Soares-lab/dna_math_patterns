@@ -1,0 +1,292 @@
+{
+  "script": "count_genome.py",
+  "version": "2.0",
+  "date": "2026-10-27T21:05:44",
+  "args": {
+    "chrom_dir": "/Users/kleiopapatheodorou/Documents/lab/fibonacci/patterns/data/apes/chroms/siamang",
+    "n_decoys": 100,
+    "out": "/Users/kleiopapatheodorou/Documents/lab/fibonacci/patterns/results_new/apes/siamang/decoy_test_genome.csv",
+    "targets": [
+      "all"
+    ],
+    "families": [
+      "fibonacci",
+      "lucas",
+      "tribonacci",
+      "thue_morse",
+      "period_doubling",
+      "rudin_shapiro",
+      "paperfolding",
+      "baum_sweet"
+    ],
+    "min_len": 13,
+    "max_len": 100,
+    "mappings": [
+      "RY",
+      "WS",
+      "MK"
+    ],
+    "strands": "both",
+    "decoy_method": "run",
+    "no_decoy_filters": false,
+    "locus_gap": 1000,
+    "seed": 11,
+    "workers": 6,
+    "chroms": null,
+    "exclude_chrom": null,
+    "per_chrom": true,
+    "progress": true
+  },
+  "n_targets": 36,
+  "n_words": 2804,
+  "chromosomes": [
+    "chr1",
+    "chr4",
+    "chrX",
+    "chr5",
+    "chr3",
+    "chr6",
+    "chr7",
+    "chr2",
+    "chr8",
+    "chr9",
+    "chr12",
+    "chr11",
+    "chr10",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr18",
+    "chr16",
+    "chr17",
+    "chr19",
+    "chr21",
+    "chr22",
+    "chr24",
+    "chr23",
+    "chr20",
+    "chrY"
+  ],
+  "decoys": {
+    "baum_sweet/standard/n4": {
+      "n_decoys": 77,
+      "n_decoys_possible": 77,
+      "exhaustive": true,
+      "p_floor": 0.01282051282051282
+    },
+    "baum_sweet/standard/n5": {
+      "n_decoys": 100,
+      "n_decoys_possible": 15119,
+      "exhaustive": true,
+      "p_floor": 0.009900990099009901
+    },
+    "baum_sweet/standard/n6": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "fibonacci/standard/F5": {
+      "n_decoys": 9,
+      "n_decoys_possible": 9,
+      "exhaustive": true,
+      "p_floor": 0.1
+    },
+    "fibonacci/standard/F6": {
+      "n_decoys": 65,
+      "n_decoys_possible": 65,
+      "exhaustive": true,
+      "p_floor": 0.015151515151515152
+    },
+    "fibonacci/standard/F7": {
+      "n_decoys": 100,
+      "n_decoys_possible": 1286,
+      "exhaustive": true,
+      "p_floor": 0.009900990099009901
+    },
+    "fibonacci/standard/F8": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "fibonacci/standard/F9": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "lucas/standard/L5": {
+      "n_decoys": 9,
+      "n_decoys_possible": 9,
+      "exhaustive": true,
+      "p_floor": 0.1
+    },
+    "lucas/standard/L6": {
+      "n_decoys": 65,
+      "n_decoys_possible": 65,
+      "exhaustive": true,
+      "p_floor": 0.015151515151515152
+    },
+    "lucas/standard/L7": {
+      "n_decoys": 100,
+      "n_decoys_possible": 1286,
+      "exhaustive": true,
+      "p_floor": 0.009900990099009901
+    },
+    "lucas/standard/L8": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "paperfolding/standard/n4": {
+      "n_decoys": 59,
+      "n_decoys_possible": 59,
+      "exhaustive": true,
+      "p_floor": 0.016666666666666666
+    },
+    "paperfolding/standard/n5": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "paperfolding/standard/n6": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "period_doubling/standard/n4": {
+      "n_decoys": 29,
+      "n_decoys_possible": 29,
+      "exhaustive": true,
+      "p_floor": 0.03333333333333333
+    },
+    "period_doubling/standard/n5": {
+      "n_decoys": 100,
+      "n_decoys_possible": 461,
+      "exhaustive": true,
+      "p_floor": 0.009900990099009901
+    },
+    "period_doubling/standard/n6": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "rudin_shapiro/standard/n4": {
+      "n_decoys": 95,
+      "n_decoys_possible": 95,
+      "exhaustive": true,
+      "p_floor": 0.010416666666666666
+    },
+    "rudin_shapiro/standard/n5": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "rudin_shapiro/standard/n6": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "thue_morse/standard/n4": {
+      "n_decoys": 77,
+      "n_decoys_possible": 77,
+      "exhaustive": true,
+      "p_floor": 0.01282051282051282
+    },
+    "thue_morse/standard/n5": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "thue_morse/standard/n6": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "tribonacci/isolate_0/T4": {
+      "n_decoys": 5,
+      "n_decoys_possible": 5,
+      "exhaustive": true,
+      "p_floor": 0.16666666666666666
+    },
+    "tribonacci/isolate_0/T5": {
+      "n_decoys": 54,
+      "n_decoys_possible": 54,
+      "exhaustive": true,
+      "p_floor": 0.01818181818181818
+    },
+    "tribonacci/isolate_0/T6": {
+      "n_decoys": 100,
+      "n_decoys_possible": 669,
+      "exhaustive": true,
+      "p_floor": 0.009900990099009901
+    },
+    "tribonacci/isolate_0/T7": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "tribonacci/isolate_1/T4": {
+      "n_decoys": 11,
+      "n_decoys_possible": 11,
+      "exhaustive": true,
+      "p_floor": 0.08333333333333333
+    },
+    "tribonacci/isolate_1/T5": {
+      "n_decoys": 100,
+      "n_decoys_possible": 279,
+      "exhaustive": true,
+      "p_floor": 0.009900990099009901
+    },
+    "tribonacci/isolate_1/T6": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "tribonacci/isolate_1/T7": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    },
+    "tribonacci/isolate_2/T4": {
+      "n_decoys": 2,
+      "n_decoys_possible": 2,
+      "exhaustive": true,
+      "p_floor": 0.3333333333333333
+    },
+    "tribonacci/isolate_2/T5": {
+      "n_decoys": 11,
+      "n_decoys_possible": 11,
+      "exhaustive": true,
+      "p_floor": 0.08333333333333333
+    },
+    "tribonacci/isolate_2/T6": {
+      "n_decoys": 100,
+      "n_decoys_possible": 279,
+      "exhaustive": true,
+      "p_floor": 0.009900990099009901
+    },
+    "tribonacci/isolate_2/T7": {
+      "n_decoys": 100,
+      "n_decoys_possible": null,
+      "exhaustive": false,
+      "p_floor": 0.009900990099009901
+    }
+  },
+  "runtime_s": 3848.0,
+  "python": "3.13.5",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3"
+}

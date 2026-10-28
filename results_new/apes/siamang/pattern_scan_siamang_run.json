@@ -1,0 +1,35 @@
+{
+  "script": "pattern_genome.py",
+  "version": "2.0",
+  "date": "2026-10-27T19:22:29",
+  "fasta": "/Users/kleiopapatheodorou/Documents/lab/fibonacci/patterns/data/apes/GCF_028878055.3_NHGRI_mSymSyn1-v2.1_pri_genomic.fna",
+  "mappings": [
+    "RY",
+    "WS",
+    "MK"
+  ],
+  "families": [
+    "fibonacci",
+    "lucas",
+    "tribonacci",
+    "thue_morse",
+    "period_doubling",
+    "rudin_shapiro",
+    "paperfolding",
+    "baum_sweet"
+  ],
+  "custom_patterns": [],
+  "min_word_len": 13,
+  "max_word_len": 10000,
+  "strands": "both",
+  "markov_order": 1,
+  "loci": 20,
+  "loci_sampling": "random",
+  "seed": 1,
+  "include_regex": null,
+  "exclude_regex": "unlocalized|unplaced|mitochondri",
+  "python": "3.13.5",
+  "numpy": "2.1.3",
+  "records": 26,
+  "fasta_characters": 3262887708
+}
