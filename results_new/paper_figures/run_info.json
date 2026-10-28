@@ -1,0 +1,22 @@
+{
+  "seed": 20260927,
+  "python": "3.13.5",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.0",
+  "seaborn": "0.13.2",
+  "inputs_md5": {
+    "pattern_scan_T2T.csv": "6e3d94612bdf1c5152fbe9edcb548d9a",
+    "enriched_loci_context_loci.csv": "da68cefbe3f030dc6155478d444ff8e1",
+    "decoy_test_genome.csv": "7975cb25cc45b0c2f03860000f9791f0",
+    "decoy_test_genome_summary.csv": "6eff4ce303c45712990aa03c85fa6e2f",
+    "periodic_test_genome.csv": "ed95ca832c252ecebaf6eedb424e0782",
+    "periodic_test_genome_summary.csv": "5e95f37812ac109821dfe65a73ff12f2",
+    "periodic_test_genome_norunrule.csv": "a56e19a017d652b172b994fd2db19d0f",
+    "periodic_test_genome_norunrule_summary.csv": "03006628ee21d498aff299cfc06ab734",
+    "periodic_test_genome_profile.csv": "be75a6a7fcc4660bcbab03bcdb773348",
+    "longest_match_summary_all_corpora.csv": "be086fe610b7fc21875b02d30c9fcd5f",
+    "decoy_test_genome_per_chrom.csv": "ff662c2317dec68ccacfe41f068704bd"
+  },
+  "chrom_sizes": "built-in T2T-CHM13v2.0"
+}

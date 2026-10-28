@@ -1,0 +1,109 @@
+panel,pattern,word,mapping,length,control,metric,real,n_decoys,decoy_median,decoy_max,k_decoys_ge_real,p_emp,testable,q_emp_loci
+3A,baum_sweet/standard/n4,Baum–Sweet n4,MK,16,run permutation,loci,93466,77,99129.0,281968,55,0.717948717948718,True,1.0
+3A,baum_sweet/standard/n4,Baum–Sweet n4,RY,16,run permutation,loci,84643,77,69547.0,163901,12,0.16666666666666666,True,1.0
+3A,baum_sweet/standard/n4,Baum–Sweet n4,WS,16,run permutation,loci,152489,77,144297.0,218945,18,0.24358974358974358,True,1.0
+3A,baum_sweet/standard/n5,Baum–Sweet n5,MK,32,run permutation,loci,1,100,1.0,9,78,0.7821782178217822,True,1.0
+3A,baum_sweet/standard/n5,Baum–Sweet n5,RY,32,run permutation,loci,1,100,1.0,15,72,0.7227722772277227,True,1.0
+3A,baum_sweet/standard/n5,Baum–Sweet n5,WS,32,run permutation,loci,3,100,3.0,15,53,0.5346534653465347,True,1.0
+3A,baum_sweet/standard/n6,Baum–Sweet n6,MK,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,baum_sweet/standard/n6,Baum–Sweet n6,RY,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,baum_sweet/standard/n6,Baum–Sweet n6,WS,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,fibonacci/standard/F5,Fibonacci F5,MK,13,run permutation,loci,529136,9,556813.0,611252,7,0.8,False,1.0
+3A,fibonacci/standard/F5,Fibonacci F5,RY,13,run permutation,loci,508306,9,557422.0,841169,7,0.8,False,1.0
+3A,fibonacci/standard/F5,Fibonacci F5,WS,13,run permutation,loci,956218,9,960828.0,1044813,5,0.6,False,1.0
+3A,fibonacci/standard/F6,Fibonacci F6,MK,21,run permutation,loci,2103,65,1937.0,6691,23,0.36363636363636365,True,1.0
+3A,fibonacci/standard/F6,Fibonacci F6,RY,21,run permutation,loci,2471,65,2400.0,10264,28,0.4393939393939394,True,1.0
+3A,fibonacci/standard/F6,Fibonacci F6,WS,21,run permutation,loci,11875,65,15110.0,33655,59,0.9090909090909091,True,1.0
+3A,fibonacci/standard/F7,Fibonacci F7,MK,34,run permutation,loci,2,100,0.0,9,17,0.1782178217821782,True,1.0
+3A,fibonacci/standard/F7,Fibonacci F7,RY,34,run permutation,loci,3,100,1.0,9,16,0.16831683168316833,True,1.0
+3A,fibonacci/standard/F7,Fibonacci F7,WS,34,run permutation,loci,7,100,5.0,13,29,0.297029702970297,True,1.0
+3A,fibonacci/standard/F8,Fibonacci F8,MK,55,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,fibonacci/standard/F8,Fibonacci F8,RY,55,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,fibonacci/standard/F8,Fibonacci F8,WS,55,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,fibonacci/standard/F9,Fibonacci F9,MK,89,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,fibonacci/standard/F9,Fibonacci F9,RY,89,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,fibonacci/standard/F9,Fibonacci F9,WS,89,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,lucas/standard/L5,Lucas L5,MK,18,run permutation,loci,41502,9,37870.0,52860,3,0.4,False,1.0
+3A,lucas/standard/L5,Lucas L5,RY,18,run permutation,loci,17075,9,16322.0,18590,3,0.4,False,1.0
+3A,lucas/standard/L5,Lucas L5,WS,18,run permutation,loci,23942,9,25819.0,35865,6,0.7,False,1.0
+3A,lucas/standard/L6,Lucas L6,MK,29,run permutation,loci,24,65,22.0,46,25,0.3939393939393939,True,1.0
+3A,lucas/standard/L6,Lucas L6,RY,29,run permutation,loci,26,65,10.0,44,3,0.06060606060606061,True,1.0
+3A,lucas/standard/L6,Lucas L6,WS,29,run permutation,loci,23,65,19.0,47,17,0.2727272727272727,True,1.0
+3A,lucas/standard/L7,Lucas L7,MK,47,run permutation,loci,0,100,0.0,1,100,1.0,True,1.0
+3A,lucas/standard/L7,Lucas L7,RY,47,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,lucas/standard/L7,Lucas L7,WS,47,run permutation,loci,0,100,0.0,2,100,1.0,True,1.0
+3A,lucas/standard/L8,Lucas L8,MK,76,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,lucas/standard/L8,Lucas L8,RY,76,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,lucas/standard/L8,Lucas L8,WS,76,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,paperfolding/standard/n4,Paperfolding n4,MK,16,run permutation,loci,140468,59,141500.0,290740,33,0.5666666666666667,True,1.0
+3A,paperfolding/standard/n4,Paperfolding n4,RY,16,run permutation,loci,74364,59,85781.0,371841,46,0.7833333333333333,True,1.0
+3A,paperfolding/standard/n4,Paperfolding n4,WS,16,run permutation,loci,127937,59,109649.0,140851,7,0.13333333333333333,True,1.0
+3A,paperfolding/standard/n5,Paperfolding n5,MK,32,run permutation,loci,3,100,2.0,9,31,0.31683168316831684,True,1.0
+3A,paperfolding/standard/n5,Paperfolding n5,RY,32,run permutation,loci,2,100,0.0,3,12,0.12871287128712872,True,1.0
+3A,paperfolding/standard/n5,Paperfolding n5,WS,32,run permutation,loci,6,100,1.0,10,2,0.0297029702970297,True,0.6415841584158415
+3A,paperfolding/standard/n6,Paperfolding n6,MK,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,paperfolding/standard/n6,Paperfolding n6,RY,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,paperfolding/standard/n6,Paperfolding n6,WS,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,period_doubling/standard/n4,Period-doubling n4,MK,16,run permutation,loci,106243,29,119875.0,159541,27,0.9333333333333333,True,1.0
+3A,period_doubling/standard/n4,Period-doubling n4,RY,16,run permutation,loci,125215,29,113318.0,169343,9,0.3333333333333333,True,1.0
+3A,period_doubling/standard/n4,Period-doubling n4,WS,16,run permutation,loci,300644,29,357496.0,586895,26,0.9,True,1.0
+3A,period_doubling/standard/n5,Period-doubling n5,MK,32,run permutation,loci,66,100,58.5,2494,45,0.45544554455445546,True,1.0
+3A,period_doubling/standard/n5,Period-doubling n5,RY,32,run permutation,loci,86,100,35.5,1351,18,0.18811881188118812,True,1.0
+3A,period_doubling/standard/n5,Period-doubling n5,WS,32,run permutation,loci,64,100,51.0,2643,36,0.36633663366336633,True,1.0
+3A,period_doubling/standard/n6,Period-doubling n6,MK,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,period_doubling/standard/n6,Period-doubling n6,RY,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,period_doubling/standard/n6,Period-doubling n6,WS,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,rudin_shapiro/standard/n4,Rudin–Shapiro n4,MK,16,run permutation,loci,156068,95,166776.0,527241,80,0.84375,True,1.0
+3A,rudin_shapiro/standard/n4,Rudin–Shapiro n4,RY,16,run permutation,loci,145812,95,149702.0,482005,53,0.5625,True,1.0
+3A,rudin_shapiro/standard/n4,Rudin–Shapiro n4,WS,16,run permutation,loci,130910,95,122769.0,362919,26,0.28125,True,1.0
+3A,rudin_shapiro/standard/n5,Rudin–Shapiro n5,MK,32,run permutation,loci,1,100,2.0,7,89,0.8910891089108911,True,1.0
+3A,rudin_shapiro/standard/n5,Rudin–Shapiro n5,RY,32,run permutation,loci,2,100,1.0,10,43,0.43564356435643564,True,1.0
+3A,rudin_shapiro/standard/n5,Rudin–Shapiro n5,WS,32,run permutation,loci,4,100,2.0,15,26,0.26732673267326734,True,1.0
+3A,rudin_shapiro/standard/n6,Rudin–Shapiro n6,MK,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,rudin_shapiro/standard/n6,Rudin–Shapiro n6,RY,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,rudin_shapiro/standard/n6,Rudin–Shapiro n6,WS,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,thue_morse/standard/n4,Thue–Morse n4,MK,16,run permutation,loci,59624,77,99129.0,281968,74,0.9615384615384616,True,1.0
+3A,thue_morse/standard/n4,Thue–Morse n4,RY,16,run permutation,loci,40628,77,69712.0,163901,73,0.9487179487179487,True,1.0
+3A,thue_morse/standard/n4,Thue–Morse n4,WS,16,run permutation,loci,75020,77,145429.0,218945,75,0.9743589743589743,True,1.0
+3A,thue_morse/standard/n5,Thue–Morse n5,MK,32,run permutation,loci,1,100,1.0,6,62,0.6237623762376238,True,1.0
+3A,thue_morse/standard/n5,Thue–Morse n5,RY,32,run permutation,loci,0,100,0.0,6,100,1.0,True,1.0
+3A,thue_morse/standard/n5,Thue–Morse n5,WS,32,run permutation,loci,0,100,3.0,36,100,1.0,True,1.0
+3A,thue_morse/standard/n6,Thue–Morse n6,MK,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,thue_morse/standard/n6,Thue–Morse n6,RY,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,thue_morse/standard/n6,Thue–Morse n6,WS,64,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,tribonacci/isolate_0/T4,Tribonacci (iso 0) T4,MK,13,run permutation,loci,353653,5,452309.0,501860,5,1.0,False,1.0
+3A,tribonacci/isolate_0/T4,Tribonacci (iso 0) T4,RY,13,run permutation,loci,458896,5,602297.0,640257,5,1.0,False,1.0
+3A,tribonacci/isolate_0/T4,Tribonacci (iso 0) T4,WS,13,run permutation,loci,969650,5,998461.0,1039700,4,0.8333333333333334,False,1.0
+3A,tribonacci/isolate_0/T5,Tribonacci (iso 0) T5,MK,24,run permutation,loci,853,54,1051.0,6406,36,0.6727272727272727,True,1.0
+3A,tribonacci/isolate_0/T5,Tribonacci (iso 0) T5,RY,24,run permutation,loci,3400,54,3772.0,38151,34,0.6363636363636364,True,1.0
+3A,tribonacci/isolate_0/T5,Tribonacci (iso 0) T5,WS,24,run permutation,loci,3001,54,3725.5,23965,47,0.8727272727272727,True,1.0
+3A,tribonacci/isolate_0/T6,Tribonacci (iso 0) T6,MK,44,run permutation,loci,44,100,4.5,42,0,0.009900990099009901,True,0.3564356435643565
+3A,tribonacci/isolate_0/T6,Tribonacci (iso 0) T6,RY,44,run permutation,loci,152,100,26.0,146,0,0.009900990099009901,True,0.3564356435643565
+3A,tribonacci/isolate_0/T6,Tribonacci (iso 0) T6,WS,44,run permutation,loci,13,100,3.0,68,10,0.10891089108910891,True,1.0
+3A,tribonacci/isolate_0/T7,Tribonacci (iso 0) T7,MK,81,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,tribonacci/isolate_0/T7,Tribonacci (iso 0) T7,RY,81,run permutation,loci,1,100,0.0,0,0,0.009900990099009901,True,0.3564356435643565
+3A,tribonacci/isolate_0/T7,Tribonacci (iso 0) T7,WS,81,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,tribonacci/isolate_1/T4,Tribonacci (iso 1) T4,MK,13,run permutation,loci,694889,11,799760.0,870342,11,1.0,False,1.0
+3A,tribonacci/isolate_1/T4,Tribonacci (iso 1) T4,RY,13,run permutation,loci,586254,11,771902.0,787882,11,1.0,False,1.0
+3A,tribonacci/isolate_1/T4,Tribonacci (iso 1) T4,WS,13,run permutation,loci,885183,11,1061947.0,1074853,11,1.0,False,1.0
+3A,tribonacci/isolate_1/T5,Tribonacci (iso 1) T5,MK,24,run permutation,loci,663,100,615.0,6638,44,0.44554455445544555,True,1.0
+3A,tribonacci/isolate_1/T5,Tribonacci (iso 1) T5,RY,24,run permutation,loci,467,100,551.5,1656,75,0.7524752475247525,True,1.0
+3A,tribonacci/isolate_1/T5,Tribonacci (iso 1) T5,WS,24,run permutation,loci,3062,100,3087.5,29789,58,0.5841584158415841,True,1.0
+3A,tribonacci/isolate_1/T6,Tribonacci (iso 1) T6,MK,44,run permutation,loci,0,100,0.0,1,100,1.0,True,1.0
+3A,tribonacci/isolate_1/T6,Tribonacci (iso 1) T6,RY,44,run permutation,loci,0,100,0.0,5,100,1.0,True,1.0
+3A,tribonacci/isolate_1/T6,Tribonacci (iso 1) T6,WS,44,run permutation,loci,0,100,0.0,3,100,1.0,True,1.0
+3A,tribonacci/isolate_1/T7,Tribonacci (iso 1) T7,MK,81,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,tribonacci/isolate_1/T7,Tribonacci (iso 1) T7,RY,81,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,tribonacci/isolate_1/T7,Tribonacci (iso 1) T7,WS,81,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,tribonacci/isolate_2/T4,Tribonacci (iso 2) T4,MK,13,run permutation,loci,979411,2,1030798.5,1048279,2,1.0,False,1.0
+3A,tribonacci/isolate_2/T4,Tribonacci (iso 2) T4,RY,13,run permutation,loci,1050122,2,1075593.0,1088792,2,1.0,False,1.0
+3A,tribonacci/isolate_2/T4,Tribonacci (iso 2) T4,WS,13,run permutation,loci,1017975,2,984373.5,989556,0,0.3333333333333333,False,1.0
+3A,tribonacci/isolate_2/T5,Tribonacci (iso 2) T5,MK,24,run permutation,loci,3655,11,3618.0,5965,5,0.5,False,1.0
+3A,tribonacci/isolate_2/T5,Tribonacci (iso 2) T5,RY,24,run permutation,loci,7019,11,6577.0,8819,3,0.3333333333333333,False,1.0
+3A,tribonacci/isolate_2/T5,Tribonacci (iso 2) T5,WS,24,run permutation,loci,11182,11,13176.0,14305,11,1.0,False,1.0
+3A,tribonacci/isolate_2/T6,Tribonacci (iso 2) T6,MK,44,run permutation,loci,3,100,0.0,3,1,0.019801980198019802,True,0.5346534653465347
+3A,tribonacci/isolate_2/T6,Tribonacci (iso 2) T6,RY,44,run permutation,loci,2,100,0.0,5,15,0.15841584158415842,True,1.0
+3A,tribonacci/isolate_2/T6,Tribonacci (iso 2) T6,WS,44,run permutation,loci,2,100,1.0,8,39,0.39603960396039606,True,1.0
+3A,tribonacci/isolate_2/T7,Tribonacci (iso 2) T7,MK,81,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,tribonacci/isolate_2/T7,Tribonacci (iso 2) T7,RY,81,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
+3A,tribonacci/isolate_2/T7,Tribonacci (iso 2) T7,WS,81,run permutation,loci,0,100,0.0,0,100,1.0,True,1.0
