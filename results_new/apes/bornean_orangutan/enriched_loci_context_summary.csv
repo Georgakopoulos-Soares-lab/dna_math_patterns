@@ -1,0 +1,10 @@
+mapping,pattern,length,obs_over_expected,hits,loci,n_tandem_hit,frac_tandem_hit,n_tandem_context,frac_tandem_context,median_hit_self_match,median_context_self_match,most_common_period,n_unverified
+RY,tribonacci/isolate_0 T6,44,63267341.8883,429,152,22,0.145,1,0.007,0.806,0.685,2,0
+MK,tribonacci/isolate_0 T6,44,12073717.7217,221,51,18,0.353,1,0.02,0.871,0.755,13,0
+WS,tribonacci/isolate_0 T6,44,17103.2171035,48,27,18,0.667,1,0.037,0.903,0.8,2,0
+WS,lucas/standard L7,47,14708.06941,1,1,1,1.0,0,0.0,0.917,0.792,11,0
+MK,tribonacci/isolate_2 T6,44,8314.42094961,21,2,0,0.0,0,0.0,0.5395,0.427,6,0
+RY,tribonacci/isolate_0 T5,24,330.212913197,22546,16356,1534,0.094,1,0.0,0.6,0.423,17,0
+RY,period_doubling/standard n5,32,250.355223681,163,120,14,0.117,2,0.017,0.833,0.709,16,0
+RY,fibonacci/standard F7,34,190.303906026,15,7,1,0.143,1,0.143,0.81,0.626,8,0
+MK,period_doubling/standard n5,32,115.84909325,106,71,45,0.634,3,0.042,0.938,0.788,8,0
