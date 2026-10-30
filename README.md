@@ -94,9 +94,7 @@ smallest possible p is 1/101 ≈ 0.0099.
 ## Repository layout
 
 ```
-run_all.sh               runs the full analysis, step by step, for any genome or genome set
-select_genomes.py        chooses the 100 bacterial, archaeal and viral genomes (fixed seed)
-get_genomes.sh           downloads every genome of a set from NCBI (curl)
+data/                    input genomes (not included, see below)
 data/sets/               the genome sets used in the paper (bacteria100, archaea100, viruses100)
 src/
   seqio.py               FASTA reading, ACGT codes, segments between gaps
@@ -109,10 +107,11 @@ src/
   periodic_decoy.py      nearest period of each word and periodic decoys
   split_t2t.sh           splits a genome into one FASTA per chromosome (any NCBI assembly)
   combine_genomes.py     one table per analysis with all genomes
-tests/                   unit tests (one file per script)
+  run_all.sh               runs the full analysis, step by step, for any genome or genome set
+  select_genomes.py        chooses the 100 bacterial, archaeal and viral genomes (fixed seed)
+  get_genomes.sh           downloads every genome of a set from NCBI (curl)
 notebooks/
   make_paper_figures.ipynb   main figures from the results
-data/                    input genomes (not included, see below)
 results_new/                 written by run_all.sh
 ```
 
