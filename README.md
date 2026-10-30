@@ -1,4 +1,4 @@
-# Mathematical words in complete ape genomes are explained by near-periodic repeats and sequence composition
+# Mathematical words in complete genomes are explained by near-periodic repeats and sequence composition
 
 Code accompanying the paper *Mathematical words in complete ape genomes are explained by near-periodic repeats and sequence composition* ([citation](#citation)).
 
