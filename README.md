@@ -341,8 +341,7 @@ are written to `results_new/paper_figures/`.
 If you use this code, please cite:
 
 > Kleio Papatheodorou, Michail Patsakis, Grigorios Koulouras, Dimitrios Gavalas, Ilias
-> Georgakopoulos-Soares. Beyond Pattern Matching: Testing the Specificity of Mathematical
-> Words in Complete Primate Genomes. *[Journal]*, [year]. doi: [DOI]
+> Georgakopoulos-Soares. Mathematical words in complete genomes are explained by near-periodic repeats and sequence composition*[Journal]*, [year]. doi: [DOI]
 
 Please also cite the genome assemblies: Nurk *et al.*, *Science* 376, 44–53 (2022) and
 Rhie *et al.*, *Nature* 621, 344–354 (2023) for T2T-CHM13v2.0, Yoo *et al.*, *Nature*
